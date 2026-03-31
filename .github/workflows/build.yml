@@ -32,7 +32,7 @@ jobs:
           
           
         sdk:
-          - 24.10
+          - 24.10.5
 
     steps:
       - uses: actions/checkout@v5
