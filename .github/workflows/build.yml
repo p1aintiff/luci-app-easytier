@@ -27,14 +27,11 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        arch:
-          - aarch64_cortex-a53          
+        arch:         
           - mipsel_24kc
           
         sdk:
           - 24.10.5
-          - 24.10.0
-
     steps:
       - uses: actions/checkout@v5
         with:
